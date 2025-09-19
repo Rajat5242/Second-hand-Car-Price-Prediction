@@ -7,8 +7,11 @@ This project focuses on predicting the price of used cars using Multiple Linear 
 
 ### 1. Data Preprocessing & Cleaning
 ✅ Handled missing values and removed irrelevant columns (Name, Model, Variant, etc.)
+
 ✅ Standardized categorical variables (e.g., grouped multiple Type, Fuel, and Gearbox categories).
+
 ✅ Removed rare brands with very few records to reduce noise.
+
 ✅ Treated outliers in Price, Year, and Kilometers driven using the IQR method and thresholding.
 
 ### 2. Exploratory Data Analysis (EDA)
@@ -20,26 +23,35 @@ This project focuses on predicting the price of used cars using Multiple Linear 
 
 ### 3. Feature Engineering
 ⚙️ Converted categorical variables (Brand, Type, Fuel, Status, Gearbox) into numerical format using OneHotEncoding.
+
 ⚙️ Applied log transformation on the target variable (Price) to reduce skewness.
 
 ### 4. Model Building
 🔧 Implemented Multiple Linear Regression using a pipeline (column transformations + regression in one workflow).
+
 🔧 Split data into train (90%) and test (10%) sets.  
+
 🔧 Performed 1000 iterations with different random states to identify the split giving the best R² score
 
 ### 5. Model Evaluation
 📈 R² Score → Best score obtained from loop.
+
 📈 Mean Absolute Error (MAE) → Measured prediction accuracy.
+
 📈 Compared predicted vs. actual prices to validate reliability.
 
 ## 🔹 Tools & Technologies
 🐍 Python Libraries: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+
 🤖 Machine Learning: Multiple Linear Regression, OneHotEncoding, Pipeline
+
 📊 Evaluation Metrics: R² Score, Mean Absolute Error (MAE)
 
 ## 🔹 Outcomes
 🚀 Built a regression model capable of predicting second-hand car prices.
+
 🧹 Cleaned and optimized dataset by consolidating redundant categories and removing outliers.
+
 📌 Demonstrated the importance of data preprocessing & feature engineering in improving regression performance.
 
 ## Reset and restructured the dataset for further analysis.
