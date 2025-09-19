@@ -13,7 +13,9 @@ This project focuses on predicting the price of used cars using Multiple Linear 
 
 ### 2. Exploratory Data Analysis (EDA)
 📊 Visualized distributions of Price, Kilometers, and Year using histograms and boxplots.
+
 📊 Checked correlations between numeric variables and plotted a heatmap.
+
 📊 Analyzed the impact of categorical features like Fuel Type and Gearbox on prices.
 
 ### 3. Feature Engineering
